@@ -3,7 +3,7 @@
 == Requirements
 
 - https://maven.apache.org/[Maven installed]
-- https://adoptopenjdk.net/[Java 11 or higher installed]
+- https://adoptium.net/[Java 11 or higher installed]
 - https://podman.io/[Podman] or https://www.docker.com/[Docker] installed
 
 == Running
