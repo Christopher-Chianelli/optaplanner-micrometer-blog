@@ -1,0 +1,33 @@
+= OptaPlanner + Micrometer
+
+== Requirements
+
+- https://maven.apache.org/[Maven installed]
+- https://adoptopenjdk.net/[Java 11 or higher installed]
+- https://podman.io/[Podman] or https://www.docker.com/[Docker] installed
+
+== Running
+
+[source,bash]
+----
+./run.sh
+----
+Will build docker images for Prometheus and the example application,
+then start the example application, Prometheus and
+Grafana on ports 8080, 9090, and 3000 respectively.
+
+Once started, visit localhost:8080 to view the application,
+localhost:9090 to see the Prometheus UI, and
+localhost:3000 to view the Grafana UI.
+
+== Stopping
+
+[source,bash]
+----
+./stop.sh
+----
+Will stop the example application, Prometheus and Grafana.
+
+== More information
+
+Visit https://www.optaplanner.org/[www.optaplanner.org].
